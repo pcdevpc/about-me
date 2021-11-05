@@ -14,10 +14,14 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title}</title>
         <html lang={lang} />
-        <meta property="og:image" content="%PUBLIC_URL%/preview.png" />
+        <meta
+          property="og:image"
+          name="image"
+          content="https://raw.githubusercontent.com/pcdevpc/about-me/main/src/images/preview.PNG"
+        />
         <meta property="og:description" name="description" content={description} />
-        <meta property="og:url" content="https://pcdevpc.github.io/about-me/" />
-        <meta property="og:author" content="Paul Chun" />
+        <meta property="og:url" name="url" content="https://pcdevpc.github.io/about-me/" />
+        <meta property="og:author" name="author" content="Paul Chun" />
       </Helmet>
       <App />
     </>
