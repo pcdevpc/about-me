@@ -12,9 +12,12 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <title>{title}</title>
+        <html lang={lang} />
+        <meta property="og:image" content="%PUBLIC_URL%/preview.png" />
+        <meta property="og:description" name="description" content={description} />
+        <meta property="og:url" content="https://pcdevpc.github.io/about-me/" />
+        <meta property="og:author" content="Paul Chun" />
       </Helmet>
       <App />
     </>

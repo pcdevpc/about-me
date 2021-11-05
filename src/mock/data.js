@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Paul Chun | Software Engineer', 
-  lang: 'en, kr', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', 
+  title: 'Paul Chun | Software Engineer',
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website. This is my portfolio & project list, and my updated resume.',
 };
 
 // HERO DATA
@@ -77,4 +77,3 @@ export const footerData = {
     },
   ],
 };
-
