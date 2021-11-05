@@ -4,7 +4,6 @@
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -12,7 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
@@ -28,7 +27,6 @@
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
     "nanoid": "^3.1.10",
-    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -36,8 +34,10 @@
     "react-github-btn": "^1.2.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-scripts": "4.0.3",
     "react-scroll": "^1.7.16",
-    "react-tilt": "^0.1.4"
+    "react-tilt": "^0.1.4",
+    "sass": "^1.43.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
