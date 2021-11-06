@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I'm a software engineer with 5+ years of expereince in IT, Network, Security industry.`,
-  paragraphTwo: 'I used to use JavaScript, React, C#, .Net, MS SQL and other technical skills.',
+  paragraphTwo: 'Frontend: JavaScript, React | Backend: C#, .Net, MS SQL',
   paragraphThree: `Here is my resume!`,
   resume: 'https://drive.google.com/file/d/1n9p1_X0lfaVsUFmnxvy1ObsvMSgE4LwG/view?usp=sharing', // if no resume, the button will not show up
 };
