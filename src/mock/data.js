@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: `I'm a software engineer with 5+ years of expereince in IT, Network, Security industry.`,
   paragraphTwo: 'Frontend: JavaScript, React | Backend: C#, .Net, MS SQL',
   paragraphThree: `Here is my resume!`,
-  resume: 'https://drive.google.com/file/d/1n9p1_X0lfaVsUFmnxvy1ObsvMSgE4LwG/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1L9MxvllRMK05__bMP47kE-74w5xqwEUM/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
